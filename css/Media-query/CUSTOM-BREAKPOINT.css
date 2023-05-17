@@ -1,0 +1,29 @@
+/* CUSTOM BREAKPOINT */
+@media only screen and (max-width:1144px) {
+    .section-container {
+        padding: 0 var(--spacing-md);
+    }
+
+    .hero .hero-text {
+        width: 60%;
+    }
+
+    .hero .hero-phone-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .partners-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    .integration-section .col-left {
+        width: 60%;
+    }
+
+    .integration-section .col-right {
+        width: 40%;
+    }
+}

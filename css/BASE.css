@@ -1,0 +1,121 @@
+/* BASE */
+html,
+body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-dark);
+    margin: 0;
+    box-sizing: border-box;
+    padding: var(--spacing-sm) 0 0 0;
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main, header {
+    width: 100%;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: var(--h1-size);
+    margin: 0;
+    width: 100%;
+    letter-spacing: -1px;
+    line-height: var(--h1-height);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: var(--h3-size);
+    margin: 0;
+    width: 100%;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h3-size);
+    margin: 0;
+    width: 100%;
+}
+
+h4 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h4-size);
+    margin: 0;
+    width: 100%;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h5-size);
+    margin: 0;
+    width: 100%;
+}
+
+h6 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h6-size);
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--purple-1);
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: var(--primary-accent);
+}
+
+p {
+    font-size: var(--p-size);
+    line-height: var(--p-height);
+    font-weight: 400;
+    margin: var(--spacing-md) 0;
+}
+.subtitle,
+.subtitle2 {
+    color: var(--purple-1);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--subtitle-size);
+    line-height: var(--subtitle-height);
+}
+
+.subtitle2 {
+    color: var(--blue-1);
+}
+
+.secondary-text {
+    font-size: var(--secondary-text-size);
+    line-height: var(--secondary-text-height);
+    color: var(--text-grey);
+    letter-spacing: 0.25px;
+}
+
