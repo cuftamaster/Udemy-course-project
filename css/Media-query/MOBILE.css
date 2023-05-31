@@ -31,10 +31,11 @@
         margin: var(--spacing-lg) 0 0 0;
     }
 
-    .hero .hero-phone-container {
+    .hero-phone-container {
         display: none;
     }
-    .hero .hero-text {
+
+    .hero-text {
         width: 100%;
     }
 
@@ -88,9 +89,6 @@
         width: 300px;
     }
 
-    .footer .section-container {
-        flex-wrap: wrap;
-    }
 
     .footer .col {
         width: 50%;

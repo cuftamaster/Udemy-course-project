@@ -1,5 +1,9 @@
 /* LAYOUT STYLES */
-.section-container {
+/* .section-container {
+    width: 100%;
+    max-width: var(--standard-width);
+} */
+.container {
     width: 100%;
     max-width: var(--standard-width);
 }

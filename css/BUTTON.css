@@ -46,3 +46,57 @@
 .with-icon:hover>img {
     transform: translateX(5px);
 }
+
+/* LIGTH ARROW */
+.arrow-right-light {
+    padding-right: 40px;
+
+} 
+.arrow-right-light::after {
+    content: url("/assets/arrow-right-light.svg");
+    position: absolute;
+    transition: transform 0.25s ease;
+}
+.arrow-right-light:hover.arrow-right-light::after {
+    transform: translateX(5px);
+}
+
+/* PURPLE ARROW */
+.arrow-right-purple {
+    padding-right: 40px;
+
+} 
+.arrow-right-purple::after {
+    content: url("/assets/arrow-right-purple.svg");
+    position: absolute;
+    transition: transform 0.25s ease;
+}
+.arrow-right-purple:hover.arrow-right-purple::after {
+    transform: translateX(5px);
+}
+/* DARK ARROW  */
+.arrow-right-dark {
+    padding-right: 40px;
+
+} 
+.arrow-right-dark::after {
+    content: url("/assets/arrow-right-dark.svg");
+    position: absolute;
+    transition: transform 0.25s ease;
+}
+.arrow-right-dark:hover.arrow-right-dark::after {
+    transform: translateX(5px);
+}
+/* BLUE ARROW */
+.arrow-right-blue {
+    padding-right: 40px;
+
+} 
+.arrow-right-blue::after {
+    content: url("/assets/arrow-right-blue.svg");
+    position: absolute;
+    transition: transform 0.25s ease;
+}
+.arrow-right-blue:hover.arrow-right-blue::after {
+    transform: translateX(5px);
+}
