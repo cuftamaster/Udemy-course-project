@@ -1,29 +1,31 @@
+@use 'VARIABLES' as *;
+
 /* BUTTON STYLES */
 .primary-button {
-    font-family: var(--body-font);
-    font-size: var(--button-size);
+    font-family: $body-font;
+    font-size: $button-size;
     letter-spacing: 1.25px;
     font-weight: bold;
-    border-radius: var(--standard-border-radius);
+    border-radius: $standard-border-radius;
     border: none;
-    color: var(--text-light);
-    background-color: var(--primary-accent);
-    padding: var(--spacing-sm) var(--spacing-md);
+    color: $text-light;
+    background-color: $primary-accent;
+    padding: $spacing-sm $spacing-md;
     transition: all 0.15s ease;
 }
 .primary-button:hover {
-    background-color: var(--primary-button-hover-color);
+    background-color: $primary-button-hover-color;
     cursor: pointer;
 }
 
 .secondary-button {
-    font-family: var(--body-font);
-    font-size: var(--button-size);
+    font-family: $body-font;
+    font-size: $button-size;
     letter-spacing: 1.25px;
     font-weight: bold;
-    border-radius: var(--standard-border-radius);
+    border-radius: $standard-border-radius;
     border: none;
-    color: var(--primary-accent);
+    color: $primary-accent;
     background-color: transparent;
     transition: all 0.15s ease;
 }

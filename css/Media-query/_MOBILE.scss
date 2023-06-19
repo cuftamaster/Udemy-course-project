@@ -1,9 +1,11 @@
+@use '../VARIABLES' as *;
+
 /* MOBILE SIZE */
 @media only screen and (max-width:550px) {
     :root {
-        --h1-size: 55px;
-        --h1-height: 60px;
-        --h3-size: 34px;
+        $h1-size: 55px;
+        $h1-height: 60px;
+        $h3-size: 34px;
     }
 
     .row {
@@ -20,7 +22,7 @@
     } */
 
     .navbars {
-        margin: 0 0 var(--spacing-md) 0;
+        margin: 0 0 $spacing-md 0;
     }
 
     #gradient-canvas {
@@ -28,7 +30,7 @@
     }
 
     main {
-        margin: var(--spacing-lg) 0 0 0;
+        margin: $spacing-lg 0 0 0;
     }
 
     .hero-phone-container {
@@ -52,16 +54,16 @@
     }
 
     .global-section {
-        padding: var(--spacing-lg) 0;
+        padding: $spacing-lg 0;
     }
 
     .global-section .cards-container {
-        margin: var(--spacing-sm) 0;
+        margin: $spacing-sm 0;
     }
 
     .global-section .cards-container .cards {
         width: 100%;
-        margin: var(--spacing-sm) 0;
+        margin: $spacing-sm 0;
     }
 
     .globe {
@@ -73,7 +75,7 @@
     }
 
     .virtual-events-section .swipe-sessions-cards {
-        margin: var(--spacing-lg) 0;
+        margin: $spacing-lg 0;
         width: 100%;
     }
 
@@ -92,7 +94,7 @@
 
     .footer .col {
         width: 50%;
-        margin: var(--spacing-md) 0;
+        margin: $spacing-md 0;
     }
 
     .footer .col a {

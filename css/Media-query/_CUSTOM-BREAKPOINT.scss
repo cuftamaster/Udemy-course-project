@@ -1,7 +1,8 @@
-/* CUSTOM BREAKPOINT */
+@use '../VARIABLES' as *;
+
 @media only screen and (max-width:1144px) {
     .container {
-        padding: 0 var(--spacing-md);
+        padding: 0 $spacing-md;
     }
 
     .hero-text {
@@ -17,6 +18,7 @@
     .partners-grid {
         display: flex;
     }
+
     .partners-grid img {
         width: 100%;
         height: auto;
@@ -26,7 +28,7 @@
         flex-direction: column;
     }
 
-.is-hiden-850 {
-    display: none;
-}
+    .is-hiden-850 {
+        display: none;
+    }
 }
