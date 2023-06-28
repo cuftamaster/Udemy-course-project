@@ -1,20 +1,15 @@
-@use '../VARIABLES' as *;
+@use '../variables';
 
 /* TABLET SIZE */
 @media only screen and (max-width:768px) {
-    :root {
-        $h1-size: 64px;
-        $h1-height: 72px;
-        $h3-size: 34px;
-        $h6-size: 16px
-    }
+
 
     main {
         margin: 0;
     }
 
     .navbars {
-        margin: $spacing-sm 0 $spacing-lg 0;
+        margin: variables.$spacing-sm 0 variables.$spacing-lg 0;
     }
 
     .navbars .menu {
@@ -31,17 +26,13 @@
 
     }
 
-    .hero-phone {
-        height: 450px;
-        transform: translate(32px);
-    }
 
     .partners-grid {
         grid-template-columns: 1fr 1fr;
     }
 
     .unified-platform-section {
-        padding-bottom: $spacing-sm;
+        padding-bottom: variables.$spacing-sm;
     }
 
     .unified-platform-section h2 {
@@ -49,11 +40,11 @@
     }
 
     .graphic-section .graphic-grid {
-        gap: $spacing-sm;
+        gap: variables.$spacing-sm;
     }
 
     .integration-section {
-        padding: $spacing-xl 0;
+        padding: variables.$spacing-xl 0;
     }
 
     .integration-section::before {
@@ -78,20 +69,20 @@
 
     .why-swipe-section .cards-container .cards {
         width: 50%;
-        margin: $spacing-sm 0;
+        margin: variables.$spacing-sm 0;
     }
 
     .global-section .cards-container {
         flex-wrap: wrap;
-        margin: $spacing-xl 0;
+        margin: variables.$spacing-xl 0;
     }
 
     .global-section .cards-container .cards {
         width: 50%;
-        margin: $spacing-md 0;
+        margin: variables.$spacing-md 0;
     }
 
     .virtual-events-section {
-        padding: $spacing-xl 0 $spacing-sm 0;
+        padding: variables.$spacing-xl 0 variables.$spacing-sm 0;
     }
 }

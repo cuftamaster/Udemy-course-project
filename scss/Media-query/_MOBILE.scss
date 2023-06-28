@@ -1,28 +1,14 @@
-@use '../VARIABLES' as *;
+@use '../variables';
 
 /* MOBILE SIZE */
 @media only screen and (max-width:550px) {
-    :root {
-        $h1-size: 55px;
-        $h1-height: 60px;
-        $h3-size: 34px;
-    }
 
     .row {
         flex-direction: column;
     }
 
-    /* .two-column .col-left {
-        width: 100%;
-    }
-
-    .two-column .col-right {
-        width: 100%;
-        padding: 0;
-    } */
-
     .navbars {
-        margin: 0 0 $spacing-md 0;
+        margin: 0 0 variables.$spacing-md 0;
     }
 
     #gradient-canvas {
@@ -30,12 +16,10 @@
     }
 
     main {
-        margin: $spacing-lg 0 0 0;
+        margin: variables.$spacing-lg 0 0 0;
     }
 
-    .hero-phone-container {
-        display: none;
-    }
+
 
     .hero-text {
         width: 100%;
@@ -54,16 +38,16 @@
     }
 
     .global-section {
-        padding: $spacing-lg 0;
+        padding: variables.$spacing-lg 0;
     }
 
     .global-section .cards-container {
-        margin: $spacing-sm 0;
+        margin: variables.$spacing-sm 0;
     }
 
     .global-section .cards-container .cards {
         width: 100%;
-        margin: $spacing-sm 0;
+        margin: variables.$spacing-sm 0;
     }
 
     .globe {
@@ -75,7 +59,7 @@
     }
 
     .virtual-events-section .swipe-sessions-cards {
-        margin: $spacing-lg 0;
+        margin: variables.$spacing-lg 0;
         width: 100%;
     }
 
@@ -94,7 +78,7 @@
 
     .footer .col {
         width: 50%;
-        margin: $spacing-md 0;
+        margin: variables.$spacing-md 0;
     }
 
     .footer .col a {

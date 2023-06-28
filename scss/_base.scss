@@ -1,0 +1,124 @@
+@use 'variables';
+
+
+/* BASE */
+html,
+body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: variables.$body-font;
+    color: variables.$text-dark;
+    margin: 0;
+    box-sizing: border-box;
+    padding: variables.$spacing-sm 0 0 0;
+    background-color: variables.$bg-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main, header {
+    width: 100%;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: variables.$heading-font;
+    font-weight: 600;
+    font-size: variables.$h1-size;
+    margin: 0;
+    width: 100%;
+    letter-spacing: -1px;
+    line-height: variables.$h1-height;
+}
+
+h2 {
+    font-family: variables.$heading-font;
+    font-weight: 600;
+    font-size: variables.$h3-size;
+    margin: 0;
+    width: 100%;
+}
+
+h3 {
+    font-family: variables.$heading-font;
+    font-weight: 500;
+    font-size: variables.$h3-size;
+    margin: 0;
+    width: 100%;
+}
+
+h4 {
+    font-family: variables.$heading-font;
+    font-weight: 500;
+    font-size: variables.$h4-size;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-family: variables.$heading-font;
+    font-weight: 500;
+    font-size: variables.$h5-size;
+    margin: 0;
+    width: 100%;
+}
+
+h6 {
+    font-family: variables.$heading-font;
+    font-weight: 500;
+    font-size: variables.$h6-size;
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: variables.$purple-1;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: variables.$primary-accent;
+}
+
+p {
+    font-size: variables.$p-size;
+    line-height: variables.$p-height;
+    font-weight: 400;
+    margin: variables.$spacing-md 0;
+}
+.subtitle,
+.subtitle2 {
+    color: variables.$purple-1;
+    font-family: variables.$heading-font;
+    font-weight: 500;
+    font-size: variables.$subtitle-size;
+    line-height: variables.$subtitle-height;
+}
+
+.subtitle2 {
+    color: variables.$blue-1;
+}
+
+.secondary-text {
+    font-size: variables.$secondary-text-size;
+    line-height: variables.$secondary-text-height;
+    color: variables.$text-grey;
+    letter-spacing: 0.25px;
+}
+
