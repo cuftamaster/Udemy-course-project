@@ -298,6 +298,22 @@ p {
 }
 
 /* HERO STYLES */
+.hero-text {
+  /* TABLET SIZE */
+  /* MOBILE SIZE */
+}
+@media only screen and (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 64px;
+    line-height: 72px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .hero-text h1 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+}
 .hero-text p {
   max-width: 480px;
 }

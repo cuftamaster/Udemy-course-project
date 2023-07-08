@@ -1,7 +1,24 @@
 @use 'variables';
 
 /* HERO STYLES */
+
 .hero-text {
+
+    /* TABLET SIZE */
+    @media only screen and (max-width:768px) {
+        h1 {
+            font-size: 64px;
+            line-height: 72px;
+        }
+    }
+
+    /* MOBILE SIZE */
+    @media only screen and (max-width:550px) {
+        h1 {
+            font-size: 55px;
+            line-height: 60px;
+        }
+    }
 
     p {
         max-width: 480px;
