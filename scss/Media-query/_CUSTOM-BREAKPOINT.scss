@@ -1,0 +1,40 @@
+@use '../variables';
+
+@media only screen and (max-width:1144px) {
+    .container {
+        padding: 0 variables.$spacing-md;
+    }
+
+    .hero-text {
+        width: 60%;
+    }
+
+    .hero-phone-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .hero-phone-container {
+        display: none;
+    }
+    .partners-grid {
+        display: flex;
+    }
+
+    .partners-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    .partners-grid .rows {
+        flex-direction: column;
+    }
+
+    .is-hiden-850 {
+        display: none;
+    }
+    .unified-platform-section .container h2 {
+        width: 100%;
+    }
+}

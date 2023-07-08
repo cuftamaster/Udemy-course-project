@@ -1,0 +1,88 @@
+@use '../variables';
+
+/* TABLET SIZE */
+@media only screen and (max-width:768px) {
+
+
+    main {
+        margin: 0;
+    }
+
+    .navbars {
+        margin: variables.$spacing-sm 0 variables.$spacing-lg 0;
+    }
+
+    .navbars .menu {
+        display: none;
+    }
+
+    .navbars .navbar-button {
+        display: none;
+    }
+
+    .navbars .hamburger-button {
+
+        display: flex;
+
+    }
+
+
+    .partners-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .unified-platform-section {
+        padding-bottom: variables.$spacing-sm;
+    }
+
+    .unified-platform-section h2 {
+        width: 100%;
+    }
+
+    .graphic-section .graphic-grid {
+        gap: variables.$spacing-sm;
+    }
+
+    .integration-section {
+        padding: variables.$spacing-xl 0;
+    }
+
+    .integration-section::before {
+        height: 900px;
+    }
+
+    .integration-section .cards-container {
+        flex-direction: column;
+    }
+
+    .integration-section .cards-container .cards {
+        width: 100%;
+    }
+
+    .why-swipe-section {
+        padding: 0;
+    }
+
+    .why-swipe-section .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .why-swipe-section .cards-container .cards {
+        width: 50%;
+        margin: variables.$spacing-sm 0;
+    }
+
+    .global-section .cards-container {
+        flex-wrap: wrap;
+        margin: variables.$spacing-xl 0;
+    }
+
+    .global-section .cards-container .cards {
+        width: 50%;
+        margin: variables.$spacing-md 0;
+    }
+
+    .virtual-events-section {
+        padding: variables.$spacing-xl 0 variables.$spacing-sm 0;
+    }
+}

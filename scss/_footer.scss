@@ -1,0 +1,61 @@
+@use 'variables';
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: variables.$bg-light;
+    padding: variables.$spacing-xl 0;
+
+
+    .col {
+        width: 25%;
+
+        .footer-logo {
+            max-width: 108px;
+            margin: 0 0 variables.$spacing-md 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                margin: variables.$spacing-md 0;
+            }
+        }
+
+
+        a {
+            color: variables.$text-dark;
+            font-weight: normal;
+
+            &:hover {
+                color: variables.$purple-1;
+                text-decoration: underline;
+            }
+        }
+
+        .icon-link {
+            display: flex;
+            align-items: center;
+            margin: variables.$spacing-md 0;
+
+            a {
+                margin: variables.$spacing-sm;
+            }
+
+            img {
+                width: 25px;
+            }
+        }
+
+
+        h3 {
+            font-size: variables.$h6-size;
+            font-weight: 700;
+        }
+    }
+
+
+}

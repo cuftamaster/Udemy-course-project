@@ -1,0 +1,113 @@
+@use 'variables';
+
+/* BUTTON STYLES */
+.button {
+    font-family: variables.$body-font;
+    font-size: variables.$button-size;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: variables.$standard-border-radius;
+    border: none;
+    transition: all 0.15s ease;
+
+}
+
+.primary-button {
+    @extend .button;
+    color: variables.$text-light;
+    background-color: variables.$primary-accent;
+    padding: variables.$spacing-sm variables.$spacing-md;
+
+    &:hover {
+        background-color: variables.$primary-button-hover-color;
+        cursor: pointer;
+    }
+}
+
+.secondary-button {
+    @extend .button;
+    color: variables.$primary-accent;
+    background-color: transparent;
+
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+    }
+}
+
+
+.with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &>img {
+        transition: transform 0.25s ease;
+    }
+
+    &:hover>img {
+        transform: translateX(5px);
+    }
+}
+
+
+
+/* LIGTH ARROW */
+.arrow-right-light {
+    padding-right: 40px;
+
+    &::after {
+        content: url("/assets/arrow-right-light.svg");
+        position: absolute;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover.arrow-right-light::after {
+        transform: translateX(5px);
+    }
+}
+
+/* PURPLE ARROW */
+.arrow-right-purple {
+    padding-right: 40px;
+
+    &::after {
+        content: url("/assets/arrow-right-purple.svg");
+        position: absolute;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover.arrow-right-purple::after {
+        transform: translateX(5px);
+    }
+}
+
+/* DARK ARROW  */
+.arrow-right-dark {
+    padding-right: 40px;
+
+    &::after {
+        content: url("/assets/arrow-right-dark.svg");
+        position: absolute;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover.arrow-right-dark::after {
+        transform: translateX(5px);
+    }
+}
+
+/* BLUE ARROW */
+.arrow-right-blue {
+    padding-right: 40px;
+
+    &::after {
+        content: url("/assets/arrow-right-blue.svg");
+        position: absolute;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover.arrow-right-blue::after {
+        transform: translateX(5px);
+    }
+}
